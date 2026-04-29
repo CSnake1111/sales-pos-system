@@ -1,17 +1,27 @@
-# Credenciales - NUNCA subir esto
+# 🔐 Credenciales
 .env
+.env.*
+*.env
 
-# Compilados
+# 🔑 Config sensibles
+*.properties
+*.yml
+*.yaml
+config.json
+
+# 📦 Compilados
 target/
+build/
+out/
+dist/
 *.class
 *.jar
 *.war
 
-# IntelliJ IDEA
+# 🧠 IDEs
 .idea/
 *.iml
-*.iws
-*.ipr
+.vscode/
 
 # Eclipse
 .classpath
@@ -20,11 +30,7 @@ target/
 
 # NetBeans
 nbproject/
-build/
-dist/
 
-# macOS
+# 🖥️ Sistema
 .DS_Store
-
-# Windows
 Thumbs.db
