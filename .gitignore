@@ -1,0 +1,13 @@
+.env
+.env.*
+env
+
+.idea/
+out/
+target/
+*.class
+*.iml
+
+*.log
+.DS_Store
+Thumbs.db
